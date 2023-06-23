@@ -1,0 +1,62 @@
+.villa-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .villa-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .villa-card:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .villa-thumbnail {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .villa-details {
+    margin-top: 10px;
+  }
+  
+  .villa-details h3 {
+    margin: 0;
+  }
+  
+  .villa-details p {
+    margin: 5px 0;
+  }
+  
+  .villa-book-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .load-more-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
